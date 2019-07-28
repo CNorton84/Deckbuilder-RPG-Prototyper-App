@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Mana",
+    "manaCost": "0",
+    "effectText": "Used for various actions.  Recuperate: Spend an action to return this card to your hand from the discard pile.",
+    "type": "Mana"
+  },
+  {
+    "name": "Stab",
+    "manaCost": "2M",
+    "effectText": "Deal 5 damage to an adjacent enemy.  If you have advantage, deal an additional two damage.",
+    "type": "Action"
+  },
+  {
+    "name": "Staggering Blow",
+    "manaCost": "1M",
+    "effectText": "Do a basic attack and move the enemy one square in any direction.",
+    "type": "Action"
+  },
+  {
+    "name": "Trip",
+    "manaCost": "3M",
+    "effectText": "Target combatant loses their next turn and grants advantage to all enemies in line of sight",
+    "type": "Action"
+  },
+  {
+    "name": "Quick Counter",
+    "manaCost": "3M",
+    "effectText": "Counter one attack and make a basic attack against the combatant who initiated it.",
+    "type": "Reaction"
+  },
+  {
+    "name": "Knife Throw",
+    "manaCost": "1M",
+    "effectText": "Do a basic attack, Range 10.  Instantaneous (Doesn’t cost an action)",
+    "type": "Reaction"
+  },
+  {
+    "name": "Killing Blow",
+    "manaCost": "2M(X)",
+    "effectText": "Discard X number of cards. Deal X damage, multiplied by two, to an adjacent enemy.  If you have advantage against that enemy, deal X damage multiplied by three instead.",
+    "type": "Action"
+  },
+  {
+    "name": "Quick Recovery",
+    "manaCost": "1M",
+    "effectText": "Take two mana from your discard pile and draw two cards.",
+    "type": "Action"
+  },
+  {
+    "name": "Ward",
+    "manaCost": "2M",
+    "effectText": "Gain 10 temporary hit points until the end of your next turn.",
+    "type": "Action"
+  },
+  {
+    "name": "Healing Salve",
+    "manaCost": "3M",
+    "effectText": "Every time you take a recuperate action, gain 1 HP.",
+    "type": "Enchantment"
+  },
+  {
+    "name": "Fireball",
+    "manaCost": "3M",
+    "effectText": "Deal 4 damage to all combatants in a 3x3 square area.",
+    "type": "Action"
+  },
+  {
+    "name": "Illusory Lure",
+    "manaCost": "2M",
+    "effectText": "Move target enemy along a path of your choice as if they had taken a move action.",
+    "type": "Reaction"
+  },
+  {
+    "name": "Shock",
+    "manaCost": "3M",
+    "effectText": "Deal 5 damage to target enemy.  Range 10.",
+    "type": "Action"
+  },
+  {
+    "name": "Poison Cloud",
+    "manaCost": "3M",
+    "effectText": "Create a cloud of poison in a 5x5 area. Combatants who start their turn in this area take 3 damage.",
+    "type": "Action"
+  }
+] 

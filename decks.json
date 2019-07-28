@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Wizard",
+    "cards": [
+      {
+        "card": "Quick Recovery",
+        "copies": 4
+      },
+      {
+        "card": "Ward",
+        "copies": 4
+      },
+      {
+        "card": "Healing Salve",
+        "copies": 2
+      },
+      {
+        "card": "Fireball",
+        "copies": 4
+      },
+      {
+        "card": "Illusory Lure",
+        "copies": 4
+      },
+      {
+        "card": "Shock",
+        "copies": 4
+      },
+      {
+        "card": "Poison Cloud",
+        "copies": 4
+      },
+      {
+        "card": "Mana",
+        "copies": 10
+      }
+    ]
+  },
+  {
+  "name": "Rogue",
+    "cards": [
+      {
+        "card": "Stab",
+        "copies": 4
+      },
+      {
+        "card": "Staggering Blow",
+        "copies": 4
+      },
+      {
+        "card": "Trip",
+        "copies": 4
+      },
+      {
+        "card": "Quick Counter",
+        "copies": 4
+      },
+      {
+        "card": "Knife Throw",
+        "copies": 4
+      },
+      {
+        "card": "Killing Blow",
+        "copies": 4
+      },
+      {
+        "card": "Quick Recovery",
+        "copies": 4
+      },
+      {
+        "card": "Mana",
+        "copies": 10
+      }
+    ]
+}
+
+]

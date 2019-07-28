@@ -1,0 +1,5 @@
+/Properties/*
+/packages/*
+/obj/*
+/bin/*
+/.vs/*
