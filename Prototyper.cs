@@ -176,6 +176,11 @@ namespace Deckbuilder_RPG_Prototyper_App
             List<Card> hand = new List<Card>();
             List<Card> discardPile = new List<Card>();
             List<string> turnLog = new List<string>();
+            Card damageCard = new Card();
+            damageCard.name = "Injury!";
+            damageCard.effectText = "Cannot be discarded normally.  Kills you?";
+            damageCard.manaCost = "None";
+            damageCard.type = "Injury";
             deckInPlay.Shuffle();
             turnLog.Add("Started play with " + decks[activeDeckIndex].name + " deck.");
             turnLog.Add("Shuffled deck.");
@@ -192,7 +197,8 @@ namespace Deckbuilder_RPG_Prototyper_App
                      "R. Reset game and shuffle deck." + System.Environment.NewLine +
                      "d. View Discard Pile [" + discardPile.Count + " cards]." + System.Environment.NewLine +
                      "c. Draw a Card [" + deckInPlay.Count + " remaining]." + System.Environment.NewLine +
-                     "D. Reveal and View Deck." + System.Environment.NewLine + System.Environment.NewLine +
+                     "D. Reveal and View Deck." + System.Environment.NewLine + 
+                     "x. Add a damage card to your deck." + System.Environment.NewLine + System.Environment.NewLine +
                      "Your hand:"  + System.Environment.NewLine);
                 if (hand.Count > 0)
                 {
@@ -252,6 +258,11 @@ namespace Deckbuilder_RPG_Prototyper_App
                             break;
                         case "D":
                             viewDeck(deckInPlay, discardPile, hand, turnLog);
+                            break;
+                        case "x":
+                            deckInPlay.Add(damageCard);
+                            deckInPlay.Shuffle();
+                            turnLog.Add("Injury card added to deck!");
                             break;
                         case "R":
                             Console.Clear();
